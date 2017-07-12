@@ -1,0 +1,39 @@
+/*
+div {
+    background-color: #98b98;
+    background-image:   url(../image/product-1.jpg),
+                        url(../image/product-2.jpg),
+                        url(../image/product-3.jpg),
+                        url(../image/product-4.jpg);
+    background-size: contain;
+}
+*/
+* {
+    background-color: #98fb98;
+}
+
+div {
+     width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+#produkt1 {
+    background-image: url(../image/product-1.jpg);
+    background-size: cover;
+}
+
+#produkt2 {
+    background-image: url(../image/product-2.jpg);
+    background-size: cover;
+}
+
+#produkt3 {
+    background-image: url(../image/product-3.jpg);
+    background-size: cover;
+}
+
+#produkt4 {
+    background-image: url(../image/product-4.jpg);
+    background-size: cover;
+}
